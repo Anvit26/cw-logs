@@ -2,8 +2,8 @@
 var AWS = require('aws-sdk');
 // Set the region 
 AWS.config = new AWS.Config();
-AWS.config.accessKeyId = "AKIAR4WWKPU4ZUOG5TGO";
-AWS.config.secretAccessKey = "secryArq5wygBYOT1uVQISfGGTaAGyofXqTpVVkQHsr9etKey";
+AWS.config.accessKeyId = "*";
+AWS.config.secretAccessKey = "*";
 AWS.config.region = "ap-south-1";
 
 var cloudwatchlogs = new AWS.CloudWatchLogs({apiVersion: '2014-03-28'});
